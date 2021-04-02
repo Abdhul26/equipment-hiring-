@@ -1,0 +1,15 @@
+.productcard_image {
+  width: 100px;
+  /* margin-bottom: 40px; */
+}
+.productcard_imageone {
+  /* height: 70px; */
+  width: 200px;
+}
+.productcard_title {
+  display: flex;
+  /* height: 10px; */
+  align-items: center;
+  margin-left: 15px;
+  margin-top: 0;
+}

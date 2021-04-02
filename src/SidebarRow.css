@@ -1,0 +1,25 @@
+.SidebarRow {
+  display: flex;
+  align-items: center;
+}
+.SidebarRow_icon {
+  font-size: large !important;
+}
+
+.SidebarRow_title {
+  flex: 1;
+  margin-left: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.SidebarRow:hover {
+  background-color: blanchedalmond;
+  cursor: pointer;
+}
+.SidebarRow:hover > .SidebarRow_icon {
+  color: blue;
+}
+.SidebarRow:hover > .SidebarRow_title {
+  font-weight: bolder;
+}
